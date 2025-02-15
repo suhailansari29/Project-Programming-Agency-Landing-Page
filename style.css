@@ -59,3 +59,42 @@ p{
     height: 50%;
     font-size: x-large;
 }
+@media (max-width: 1090px){
+    h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .card{
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 5%;
+        margin-bottom: 2%;
+        clear: both;
+    }
+    .image{
+        display: block;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 15%;
+        margin-bottom: 5%;
+        clear: both;
+    }
+    .heading{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 25%;
+        margin-bottom: 5%;
+        background-color: chocolate;
+        display: inline-block;
+        width: 50%;
+        border-radius: 10%;
+    }
+    p{
+        display: block;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 0%;
+    }
+}
